@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 /*Estilização comum*/
+.secao-topo{
+    display: flex;
+    justify-content: space-between;
+}
 .secao-banner{
     background-image: url('../assets/img-fundo.jpg');
     background-size: cover;
