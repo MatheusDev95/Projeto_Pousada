@@ -6,7 +6,8 @@
 }
 /*Estilização comum*/
 .secao-banner{
-    background: url('../assets/img-fundo.jpg') cover;
+    background-image: url('../assets/img-fundo.jpg');
+    background-size: cover;
     height: 45vh;
     width: 100vw;
 }
