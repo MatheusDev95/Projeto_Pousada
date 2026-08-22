@@ -4,3 +4,7 @@
     padding: 0;
     font-family: sans-serif;
 }
+/*Estilização comum*/
+.secao-banner{
+    background: url('../assets/img-fundo.jpg');
+}
