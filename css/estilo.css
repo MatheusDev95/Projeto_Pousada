@@ -11,7 +11,7 @@
 }
 .secao-banner{
     background-image: url('../assets/img-fundo.jpg');
-    background-size: cover;
+    background-size: contain;
     height: 45vh;
     width: 100vw;
 }
