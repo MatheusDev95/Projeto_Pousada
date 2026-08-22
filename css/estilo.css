@@ -2,25 +2,38 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-.card{
-    width: 120px;
-}
-div{/*bordas para facilitar edição*/border:1px solid black;}
 /*Estilização comum*/
-.secao-topo{
-    display: flex;
-    justify-content: space-between;
-}
-.secao-banner{
-    background: url('../assets/img-fundo.jpg') no-repeat contain;
-    height: 70,vh;
+/*Seção topo*/
+.secao-topo{/*Limitação do container topo*/
     width: 100vw;
+    height: 45px;
+    background-color: #fff;
+}
+.secao-topo-container{/*Limitação do container título*/
+    width: 1024px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    color: #3d3d3d;
+}
+.secao-topo-container a{/*Limitação do container link*/
+    padding: 10px; 
+    text-decoration: none;
+}
+
+/*Seção banner*/
+.secao-banner{
+    background: url('../assets/img-fundo.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
 }
 .secao-banner .conteudo{
-    margin: 120px auto;
-    width: 250px;
-    color: white;
-    background-color: rgba(0, green, blue, 0.3);
+    border: 1px solid blue;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
 }
