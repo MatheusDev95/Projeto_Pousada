@@ -4,7 +4,7 @@
     padding: 0;
     font-family: sans-serif;
 }
-div{/*bordas para facilitar edição*/border:1px solid black}
+div{/*bordas para facilitar edição*/border:1px solid black;}
 /*Estilização comum*/
 .secao-topo{
     display: flex;
